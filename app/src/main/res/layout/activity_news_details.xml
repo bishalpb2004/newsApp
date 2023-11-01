@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".NewsDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/newsHeading"
+            android:elevation="16dp"
+            android:padding="16dp"
+            android:text="Rishi Sunak, wife Akshata Murthy visit Akshardham temple"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_width="365dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/newsImage"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_height="250dp"
+                android:layout_marginLeft="7dp"
+                android:src="@drawable/ic_launcher_background"
+                android:contentDescription="TODO"/>
+
+            <TextView
+                android:id="@+id/newsContent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:padding="5dp"
+                android:text="UK Prime Minister Rishi Sunak and his wife Akshata Murty visited the Swaminarayan Akshardham temple Sunday. The couple arrived at 6.30 am and spent about 40 minutes to an hour at the site.
+Sunak was garlanded by six priests on behalf of the sixth spiritual guru and president of Bochasanwasi Akshar Purushottam Swaminarayan Sanstha, Mahant Swami Maharaj. Murty was welcomed by women volunteers.
+Speaking to The Indian Express, Dr Jyotindra Dave, Director of the Research Institute at Akshardham, who was also part of the group that welcomed the couple and took them around, said, “… They removed their footwear at the Charnavind and walked barefoot… In the main shrine, they participated in Pushpanjali (offering of flowers to the god). Akshata Murty offered a panchang pranam to Swaminarayan.
+Officials at the temple said they received a call from the British High Commission on Saturday about the visit. “We were told the UK PM wanted to visit the temple around 6 am. As we usually open at 10 am, we asked staff from a few departments to come in earlier… We were told the couple are regular visitors to the Akshardham temple in the UK and wanted to offer their prayers here on the note of Janmashtami,” said Dave.
+The couple also visited the surrounding shrines of Radha-Krishna, Lakshmi-Narayan, Sita Ram and Hanuman, Parvati Shiva and Ganesh. “Before they left, our sadhus gave them a replica of the Akshardham temple and some important literature on Swaminarayan,” Dave added.
+The temple authorities quoted Sunak as saying in a statement, “We were amazed and awed by the beauty of this temple and its universal message of peace, harmony, and becoming a better human being. This is not only a place of worship, but a landmark that also portrays India’s values, culture and contributions to the world.”"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
